@@ -1,0 +1,31 @@
+
+/* Nav */
+.navbar-background {
+    background-color: #302c2c !important;
+}
+.navbar .nav-link {
+  color: silver !important; 
+}
+.navbar .nav-link:hover {
+  color: white !important; 
+}
+.nav-gradient-btn {
+  background: linear-gradient(90deg, #5b9dff, #d74cdd);
+  color: #fff !important;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.nav-gradient-btn:hover {
+  opacity: 0.85;
+}
+.pulse-animate {
+    animation: pulse 1.5s infinite ease-in-out;
+  }
+
+@keyframes pulse {
+    0%   { transform: scale(1); }
+    50%  { transform: scale(1.1); } /* slightly bigger */
+    100% { transform: scale(1); }
+}
+
