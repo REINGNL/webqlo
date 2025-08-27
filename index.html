@@ -4,34 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>WebQlo</title>
- 
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
+
 </head>
 <body>
-
 <!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-background sticky-top shadow-sm">
   <div class="container">
     <a class="navbar-brand fw-bold" href="#">
-        <img src="/assets/logo/webqlo.webp" alt="WebQlo Logo" width="180">
+      <img src="/assets/logo/webqlo.webp" alt="WebQlo Logo" width="180">
     </a>
 
-    <!-- For Mobile Responsive Toggle Button-->
+   
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto align-items-center">
-        
         <li class="nav-item me-2 pe-3">
-            <a class="btn nav-gradient-btn px-3 pulse-animate " href="#">
-                RM5,000 MADANI Plans
-            </a>
+          <a class="btn nav-gradient-btn px-3 pulse-animate" href="#">
+            RM5,000 MADANI Plans
+          </a>
         </li>
-
         <li class="nav-item"><a class="nav-link" href="#">WHO WE ARE</a></li>
         <li class="nav-item"><a class="nav-link" href="#">WHAT WE DO</a></li>
         <li class="nav-item"><a class="nav-link" href="#">OUR WORK</a></li>
@@ -42,123 +40,297 @@
   </div>
 </nav>
 
+<!-- HERO CAROUSEL -->
+<div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
 
-<!-- HERO SECTION -->
-<!-- HERO SECTION WITH CAROUSEL -->
-<section class="hero-section py-5" style="background: linear-gradient(90deg, #e4f2ff, #f9f2ff);">
-  <div class="container">
-    <div class="row align-items-center">
-      
-      <!-- LEFT: Carousel -->
-      <div class="col-md-6 text-center">
-        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
-          
-          <!-- Indicators (dots) -->
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+    
+    <div class="carousel-item active hero-slide" style="background: linear-gradient(90deg, #e4f2ff, #f9f2ff);">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center">
+            <img src="/assets/img/home_banner_client_project_samples_image.webp" class="img-fluid" alt="Digital Ads">
           </div>
-
-          <!-- Carousel items -->
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="/assets/img/home_banner_client_project_samples_image.webp" class="d-block w-100 rounded shadow" alt="Digital Ads">
+          <div class="col-md-6 text-center text-md-start">
+            <div class="mb-3">
+              <img src="/assets/img/home_banner_title_msme_madani_digital_grant.webp" 
+                   alt="Malaysia Madani" 
+                   class="img-fluid hero-img">
             </div>
-            <div class="carousel-item">
-              <img src="/assets/img/another_image1.webp" class="d-block w-100 rounded shadow" alt="Project Sample">
-            </div>
-            <div class="carousel-item">
-              <img src="/assets/img/another_image2.webp" class="d-block w-100 rounded shadow" alt="Marketing Example">
-            </div>
+          <a href="#"
+   class="inline-block bg-black text-white font-bold py-3 px-8 
+          border-b-4 border-gray-700 rounded-lg
+          shadow-lg transform transition 
+          hover:bg-purple-600 hover:border-purple-800 hover:translate-y-1 hover:shadow-xl">
+  Claim Now
+</a>
           </div>
-
-          <!-- Controls (Prev/Next) -->
-          <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-          </button>
         </div>
       </div>
-      
-      <!-- RIGHT: Text + Button -->
-      <div class="col-md-6 text-center text-md-start">
-        <div class="mb-3">
-          <img src="/assets/img/home_banner_title_msme_madani_digital_grant.webp" 
-              alt="Malaysia Madani" 
-              class="img-fluid hero-img">
-        </div>
-        <a href="#"
-           class="bg-blue-600 hover:bg-purple-500 text-white font-bold py-3 px-8 border-b-4 border-purple-800 hover:border-purple-600 rounded-lg">
-           Claim Now
-        </a>
-      </div>
-
     </div>
+
+ 
+    <div class="carousel-item active hero-slide" style="background: linear-gradient(90deg, #e4f2ff, #f9f2ff);">
+      <div class="container">
+        <div class="row align-items-center">
+        
+          <div class="col-md-6 text-center text-md-start">
+            <div class="mb-3">
+                <div class="gradient-text">
+                    Download <br>
+                    Free Report <br>
+                    in 60 Secs
+                </div>
+            </div>
+           <div class="flex justify-center mt-6">
+              <a href="#"
+   class="inline-block bg-black text-white font-bold py-3 px-8 
+          border-b-4 border-gray-700 rounded-lg
+          shadow-lg transform transition 
+          hover:bg-purple-600 hover:border-purple-800 hover:translate-y-1 hover:shadow-xl">
+  Download Now
+</a>
+            </div>
+          </div>
+           <div class="col-md-6 text-center">
+                <img src="/assets/img/main_banner_3.webp" class="img-fluid bigger-img" alt="Digital Ads">
+        </div>
+        </div>
+      </div>
+    </div>
+
   </div>
-</section>
 
+  
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+  </div>
 
+  
+  <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
 
 <!-- WHAT WE DO -->
 <section class="py-5">
   <div class="container">
-    <h2 class="text-center mb-5">What We Do</h2>
-    <div class="row g-4 text-center">
-      <div class="col-6 col-md-4 col-lg-2">
-        <div class="service-card">
-          <img src="images/icon1.png" alt="Marketing">
-          <h6 class="mt-2">Digital Marketing</h6>
-        </div>
+    <h2 class="text-center fw-bold mb-5">WHAT WE DO</h2>
+    <div class="row g-4">
+
+      
+      <div class="col-md-6 text-center">
+        <video class="img-fluid mb-3" autoplay muted loop playsinline>
+          <source src="./assets/gif/Integrated_Digital_Marketing_MASTER_compressed.mp4" type="video/mp4">
+        </video>
+        <a href="integrated-marketing.html" class="gradient-txt d-block mb-2">
+          Integrated Digital Marketing
+        </a>
+        <p>We seamlessly integrate 360° channels in your marketing campaigns, ensuring a strategic and smooth customer journey.</p>
       </div>
-      <div class="col-6 col-md-4 col-lg-2">
-        <div class="service-card">
-          <img src="images/icon2.png" alt="Social Media">
-          <h6 class="mt-2">Social Media</h6>
-        </div>
+
+      
+      <div class="col-md-6 text-center">
+        <video class="img-fluid mb-3" autoplay muted loop playsinline>
+          <source src="./assets/gif/Social_Media_Marketing_MASTER_compressed.mp4" type="video/mp4">
+        </video>
+        <a href="social-media.html" class="gradient-txt d-block mb-2">
+          Social Media Marketing
+        </a>
+        <p>We specialize in growing your brand across all social media in Malaysia like Facebook, Instagram, TikTok, and more.</p>
       </div>
-      <!-- Add more services here -->
+
+     
+      <div class="col-md-6 text-center">
+        <video class="img-fluid mb-3" autoplay muted loop playsinline>
+          <source src="./assets/gif/Performance_Marketing_Home_MASTER_compressed.mp4" type="video/mp4">
+        </video>
+        <a href="performance.html" class="gradient-txt d-block mb-2">
+          Performance Marketing
+        </a>
+        <p>Measure every action, from clicks to leads to sales. Achieve remarkable results in your performance marketing journey with us.</p>
+      </div>
+
+      
+      <div class="col-md-6 text-center">
+        <video class="img-fluid mb-3" autoplay muted loop playsinline>
+          <source src="./assets/gif/Social Media Intelligence GIF.mp4" type="video/mp4">
+        </video>
+        <a href="intelligence.html" class="gradient-txt d-block mb-2">
+          Social Media Intelligence
+        </a>
+        <p>Unlock the power of data with our proprietary social media analytics. We craft successful solutions for your brand.</p>
+      </div>
+
+      
+      <div class="col-md-6 text-center">
+        <video class="img-fluid mb-3" autoplay muted loop playsinline>
+          <source src="./assets/gif/Website_Development_MASTER_compressed.mp4" type="video/mp4">
+        </video>
+        <a href="seo.html" class="gradient-txt d-block mb-2">
+          SEO Optimization
+        </a>
+        <p>Boost your visibility in search engines with our modern SEO practices to increase traffic and conversions.</p>
+      </div>
+
+     
+      <div class="col-md-6 text-center">
+        <video class="img-fluid mb-3" autoplay muted loop playsinline>
+          <source src="./assets/gif/Big_Data_Analytics_MASTER_compressed.mp4" type="video/mp4">
+        </video>
+        <a href="content.html" class="gradient-txt d-block mb-2">
+          Content Creation
+        </a>
+        <p>Engage your audience with creative content tailored for your brand across all digital platforms.</p>
+      </div>
+
     </div>
   </div>
 </section>
 
 <!-- WHO WE ARE -->
-<section class="py-5 bg-light">
+<section class="py-4 bg-light">
   <div class="container text-center">
-    <h2 class="mb-3">Who We Are</h2>
-    <p class="lead">We’re a full-fledged, data-driven digital marketing agency in Malaysia that can meet your business needs through creativity backed with insights.</p>
-    <a href="#" class="btn btn-outline-primary mt-3">Discover More</a>
+    <h2 class="text-dark mb-2 mt-6 fw-bold">Who We Are</h2>
+    <p class="text-dark mt-6 mb-4">
+      We’re a full-fledged, data-driven digital marketing agency in Malaysia that can meet your business needs through creativity backed with insights.
+    </p>
+    
+    <a href="#"
+   class="inline-block bg-black text-white font-bold py-3 px-8 
+          border-b-4 border-gray-700 rounded-lg
+          shadow-lg transform transition 
+          hover:bg-purple-600 hover:border-purple-800 hover:translate-y-1 hover:shadow-xl">
+Discover More
+</a>
   </div>
 </section>
 
+
 <!-- CLIENTS -->
 <section class="py-5">
-  <div class="container">
-    <h2 class="text-center mb-5">Our Clients</h2>
-    <div class="row g-4 justify-content-center text-center clients">
-      <div class="col-4 col-sm-3 col-md-2"><img src="images/client1.png" class="img-fluid" alt="Client"></div>
-      <div class="col-4 col-sm-3 col-md-2"><img src="images/client2.png" class="img-fluid" alt="Client"></div>
-      <div class="col-4 col-sm-3 col-md-2"><img src="images/client3.png" class="img-fluid" alt="Client"></div>
-      <!-- Add more logos -->
+  <div class="container my-5 text-center">
+    <h2 class="mb-4 fw-bold">OUR CLIENTS</h2>
+    <div class="row row-cols-2 row-cols-md-5 g-4">
+      <div class="col"><img src="./assets/img/clientlogo/abbott_logo.webp" alt="Abbott" class="client-logo img-fluid"></div>
+      <div class="col"><img src="./assets/img/clientlogo/amway_logo.webp" alt="Amway" class="client-logo img-fluid"></div>
+      <div class="col"><img src="./assets/img/clientlogo/clarins_logo.webp" alt="Clarins" class="client-logo img-fluid"></div>
+      <div class="col"><img src="./assets/img/clientlogo/cpb_logo.webp" alt="Clé de Peau" class="client-logo img-fluid"></div>
+      <div class="col"><img src="./assets/img/clientlogo/estee_lauder_logo.webp" alt="Estée Lauder" class="client-logo img-fluid"></div>
+
+      <div class="col"><img src="./assets/img/clientlogo/guocera_logo.webp" alt="Guocera" class="client-logo img-fluid"></div>
+      <div class="col"><img src="./assets/img/clientlogo/hbct_logo.webp" alt="Hokkaido Baked Cheese Tart" class="client-logo img-fluid"></div>
+      <div class="col"><img src="./assets/img/clientlogo/kkm_logo.webp" alt="Kementerian Kesihatan Malaysia" class="client-logo img-fluid"></div>
+      <div class="col"><img src="./assets/img/clientlogo/kto_logo.webp" alt="Korea Tourism Organization" class="client-logo img-fluid"></div>
+      <div class="col"><img src="./assets/img/clientlogo/laneige_logo.webp" alt="Laneige" class="client-logo img-fluid"></div>
+
+      <div class="col"><img src="./assets/img/clientlogo/laura_mercier_logo.webp" alt="Laura Mercier" class="client-logo img-fluid"></div>
+      <div class="col"><img src="./assets/img/clientlogo/loreal_logo.webp" alt="L’Oréal" class="client-logo img-fluid"></div>
+      <div class="col"><img src="./assets/img/clientlogo/mahsing_logo.webp" alt="MahSing" class="client-logo img-fluid"></div>
+      <div class="col"><img src="./assets/img/clientlogo/nars_logo.webp" alt="NARS" class="client-logo img-fluid"></div>
+      <div class="col"><img src="./assets/img/clientlogo/phc_log.webp" alt="Pizza Hut" class="client-logo img-fluid"></div>
+
+      <div class="col"><img src="./assets/img/clientlogo/rakuten_logo.webp" alt="Rakuten" class="client-logo img-fluid"></div>
+      <div class="col"><img src="./assets/img/clientlogo/shiseido_logo.webp" alt="Shiseido" class="client-logo img-fluid"></div>
+      <div class="col"><img src="./assets/img/clientlogo/spritzer_logo.webp" alt="Spritzer" class="client-logo img-fluid"></div>
+      <div class="col"><img src="./assets/img/clientlogo/sr_logo.webp" alt="Secret Recipe" class="client-logo img-fluid"></div>
+      <div class="col"><img src="./assets/img/clientlogo/sunway_logo.webp" alt="Sunway" class="client-logo img-fluid"></div>
+
+      <div class="col"><img src="./assets/img/clientlogo/taiko_logo.webp" alt="Taiko" class="client-logo img-fluid"></div>
+      <div class="col"><img src="./assets/img/clientlogo/taisho_logo.webp" alt="Taisho Pharmaceutical" class="client-logo img-fluid"></div>
+      <div class="col"><img src="./assets/img/clientlogo/taiwan_excellence_logo.webp" alt="Taiwan Excellence" class="client-logo img-fluid"></div>
+      <div class="col"><img src="./assets/img/clientlogo/tiger_logo.webp" alt="Tiger Beer" class="client-logo img-fluid"></div>
+      <div class="col"><img src="./assets/img/clientlogo/zuellig_pharma_logo.webp" alt="Zuellig Pharma" class="client-logo img-fluid"></div>
     </div>
   </div>
 </section>
 
-<!-- FOOTER -->
-<footer class="py-4 bg-dark text-light text-center">
+<section class="py-5 text-center bg-light">
   <div class="container">
-    <p class="mb-1">&copy; 2025 WebQlo Sdn. Bhd.</p>
-    <a href="#" class="text-white-50 text-decoration-none mx-2">Privacy Policy</a> |
-    <a href="#" class="text-white-50 text-decoration-none mx-2">Terms & Conditions</a>
+    <h3 class="fw-bold">CREATE AN IMPACT WITH US</h3>
+        <a href="#"
+   class="inline-block bg-black text-white font-bold py-3 px-8  mt-6
+            border-b-4 border-gray-700 rounded-lg
+            hadow-lg transform transition 
+            hover:bg-purple-600 hover:border-purple-800 hover:translate-y-1 hover:shadow-xl">
+  Get in Touch
+</a>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="border-top pt-4 position-relative mb-6">
+  <div class="container">
+
+    
+    <button id="subscribeBtn" class="btn btn-primary subscribe-btn">
+      📧 Subscribe!
+    </button>
+
+   
+    <div class="row align-items-center mt-4">
+      <!-- Left -->
+      <div class="col-md-4 text-center text-md-start mb-2 mb-md-0">
+        <a href="#">Terms And Conditions</a> | 
+        <a href="#">Privacy Policy</a> | 
+        <a href="#">Refund Policy</a>
+        <p class="mb-0">Copyright © 2025 WEBQLO Sdn. Bhd.</p>
+      </div>
+
+      <!-- Center -->
+      <div class="col-md-4 d-flex justify-content-center align-items-center mb-2 mb-md-0">
+        <a href="#"><img src="./assets/logo/social-media.png" alt="Facebook" class="mx-2 social-icon"></a>
+        <a href="#"><img src="./assets/logo/video.png" alt="Instagram" class="mx-2 social-icon"></a>
+        <a href="#"><img src="./assets/logo/linkedin.png" alt="LinkedIn" class="mx-2 social-icon"></a>
+      </div>
+
+      <!-- Right -->
+      <div class="col-md-4 text-center text-md-end d-flex align-items-center justify-content-md-end justify-content-center ">
+        <span class="me-2 fw-semibold">Partners with:</span>
+        <img src="./assets/logo/md-logo.webp" alt="MD Logo" class="img-fluid me-2" style="max-height: 20px;">
+        <img src="./assets/logo/mbp-badge-hover.webp" alt="MBP Badge" class="img-fluid me-2" style="max-height: 20px;">
+        <img src="./assets/logo/PartnerBadgeClickable.svg" alt="Google Partner Badge" class="img-fluid" style="max-height: 20px;">
+      </div>
+    </div>
   </div>
 </footer>
 
+<!-- Subscription Popup -->
+<div id="subscribePopup" class="subscribe-popup">
+  <div class="popup-content">
+    <span id="closePopup" class="close">&times;</span>
+    <h4>📩 Hey, you!</h4>
+    <p>You want to get ahead of the game, right? Sign up and we'll send the best insights right into your inbox.</p>
+    <form>
+      <input type="email" placeholder="Your Email Address" required>
+      <button type="submit  ">Subscribe</button>
+    </form>
+  </div>
+</div>
 
-<script setup>
-import { motion } from "motion-v"
-</script>
+<!-- Bouching FLoating Buttons -->
+<div class="floating-buttons">
+  
+  <a href="https://www.webqlo.com/cost-calculator" class="bounce" target="_blank">
+    <img src="./assets/img/calculator_floating_button_1.png" 
+         alt="Cost Estimation Calculator" 
+         class="floating-img calc-img">
+  </a>
+
+ 
+  <a href="https://api.whatsapp.com/send/?phone=60377347247&text=Hi%21+I%E2%80%99m+interested+to+know+more+about+your+MADANI+Grant+plans+for+digital+marketing.+Can+you+share+the+details%3F&type=phone_number&app_absent=0" class="bounce" target="_blank">
+    <img src="./assets/img/whatsapp_floating_button_stroke.png" 
+         alt="Claim RM5,000 Grant" 
+         class="floating-img grant-img">
+  </a>
+</div>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/js/script.js"></script>
 </body>
 </html>
